@@ -6,9 +6,13 @@ module.exports = class Hl7Encoder
 
     FIELD_SEPARATOR = '|'
     COMPONENT_SEPARATOR = '^'
-    NEW_LINE = '\n'
+    NEW_LINE = '\r'
 
     DEFAULT_SEPARATORS = "#{COMPONENT_SEPARATOR}~\\&"
+
+    constructor: (options)->
+        if options?.NEW_LINE
+            NEW_LINE = options.NEW_LINE
 
     encode: (message)->
 

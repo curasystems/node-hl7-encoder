@@ -1,6 +1,6 @@
 require './testing'
 
-Encoder = require '../hl7encoder'
+Encoder = require '..'
 
 describe 'hl7encoder', ->
 
@@ -8,6 +8,7 @@ describe 'hl7encoder', ->
 
     beforeEach ()->
           e = new Encoder
+          e.NEW_LINE = '\n'
 
     describe 'generating an ORU HL7 message for UMM', ->
     

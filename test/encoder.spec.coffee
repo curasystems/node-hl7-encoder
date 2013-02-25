@@ -7,7 +7,7 @@ describe 'HL7 Encoder', ->
     e = null
 
     beforeEach ()->
-          e = new Encoder
+          e = new Encoder NEW_LINE:'\n'
 
     describe 'generating an ORU HL7 message for UMM', ->
     
