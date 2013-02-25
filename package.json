@@ -17,7 +17,8 @@
   "license": "BSD",
   "dependencies": {
     "underscore": "~1.4.4",
-    "underscore.string": "~2.3.1"
+    "underscore.string": "~2.3.1",
+    "bunyan":"~0.17.0"
   },
   "devDependencies": {
     "coffee-script": "~1.4.0",
