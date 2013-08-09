@@ -1,6 +1,6 @@
 {
   "name": "hl7-encoder",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "a VERY simple library to create hl7 messages with standard HR7 encoding for 2.x messages",
   "main": "lib/encoder.js",
   "scripts": {
