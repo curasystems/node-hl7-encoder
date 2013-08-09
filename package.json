@@ -1,6 +1,6 @@
 {
   "name": "hl7-encoder",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "a VERY simple library to create hl7 messages with standard HR7 encoding for 2.x messages",
   "main": "lib/encoder.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "hl7"
   ],
   "author": "Matthias Götzke",
-  "license": "BSD",
+  "license": "MIT",
   "dependencies": {
     "underscore": "~1.4.4",
     "underscore.string": "~2.3.1",
