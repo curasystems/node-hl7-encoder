@@ -9,7 +9,7 @@ A very simple JSON to hl7 2.x encoder
 
 ## Example
 
-    var encoder = require('hl7-encoder');
+    var Encoder = require('hl7-encoder');
 
     var message = {
       MSH:{
@@ -36,6 +36,7 @@ A very simple JSON to hl7 2.x encoder
       OBR:{}
     };
 
+    var encoder = new Encoder();
     var encodedMessage = encoder.encode(message);
     console.log(encodedMessage);
 
